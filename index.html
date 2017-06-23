@@ -1,0 +1,41 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/Dynamic-Circular-Progress-Bar-with-jQuery-CSS3/jQuery-plugin-progressbar.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="lib/jQuery/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+{% include header.html %}
+{% include about.html %}
+{% include competence.html %}
+{% include experience.html %}
+{% include more.html %}
+
+<script src="lib/Dynamic-Circular-Progress-Bar-with-jQuery-CSS3/jQuery-plugin-progressbar.js"></script>
+<script src="js/experiencesBubble.js"></script>
+<script src="js/jd_animate.js"></script>
+<script type="application/javascript">
+    $(document).ready(function () {
+        var footerHeight = $('#more').height();
+        $('body').css('marginBottom',footerHeight);
+        $( window ).resize(function() {
+            var footerHeight = $('#more').height();
+            console.log(footerHeight);
+            $('body').css('marginBottom',footerHeight);
+        });
+        $(".point").show();
+    });
+
+</script>
+</body>
+</html>

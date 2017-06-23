@@ -1,0 +1,30 @@
+#more {
+  background-color: #505050;
+  color: whitesmoke;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  width: 100%; }
+  #more h1 {
+    text-align: center; }
+  #more .footer {
+    background-color: #333333;
+    height: 50px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; }
+    #more .footer .email-icon {
+      float: left; }
+      #more .footer .email-icon .fa {
+        margin-right: 20px; }
+    #more .footer .right-icon {
+      float: right; }
+    #more .footer a .fa {
+      transition: color 0.5s ease 0s; }
+      #more .footer a .fa:hover {
+        color: _palette(general, base);
+        cursor: pointer; }
+
+/*# sourceMappingURL=more.css.map */

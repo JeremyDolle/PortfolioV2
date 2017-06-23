@@ -1,0 +1,40 @@
+#about {
+  padding: 150px;
+  position: relative;
+  background: #dadada url(images/photo.png) right center no-repeat;
+  background-size: contain;
+  z-index: 999;
+  box-shadow: 0px -15px 22px -13px rgba(0, 0, 0, 0.3); }
+  #about .about-content {
+    border-left: 5px solid whitesmoke;
+    padding-left: 30px; }
+    #about .about-content .about-title {
+      margin-bottom: 50px;
+      color: _palette(general, base); }
+    #about .about-content .about-text {
+      width: 60%; }
+  @media screen and (max-width: 870px) {
+    #about {
+      padding-left: 70px; } }
+  @media screen and (max-width: 770px) {
+    #about {
+      padding: 70px; } }
+  @media screen and (max-width: 620px) {
+    #about {
+      padding: 30px; } }
+  @media screen and (max-width: 575px) {
+    #about .about-content .about-text {
+      width: 80%; } }
+  @media screen and (max-width: 505px) {
+    #about .about-content .about-text {
+      width: 90%; } }
+  @media screen and (max-width: 483px) {
+    #about {
+      background-size: cover;
+      padding: 10px; }
+      #about .about-content .about-title {
+        margin-bottom: 10px; }
+      #about .about-content .about-text {
+        width: 100%; } }
+
+/*# sourceMappingURL=about.css.map */

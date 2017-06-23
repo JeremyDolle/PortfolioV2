@@ -1,0 +1,66 @@
+#experiences {
+  background-color: _palette(general, base);
+  z-index: 999;
+  box-shadow: 0px 15px 22px -13px rgba(0, 0, 0, 0.3); }
+  #experiences .experiences-title {
+    color: whitesmoke;
+    margin-bottom: 50px; }
+  #experiences #line {
+    border-bottom: 5px solid whitesmoke;
+    width: 100%;
+    margin-bottom: 50px;
+    color: #505050; }
+    #experiences #line .point {
+      cursor: pointer;
+      margin: 0 40px;
+      margin-bottom: -32.5px;
+      width: 60px;
+      height: 60px;
+      background-color: whitesmoke;
+      border-radius: 50%;
+      transition: all 0.3s ease-out 0s; }
+      #experiences #line .point.hover {
+        background-color: #505050;
+        color: #E45946; }
+  #experiences #experience-text {
+    padding: 40px;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    min-height: 350px;
+    width: 40%;
+    margin-bottom: 50px;
+    opacity: 0;
+    transform: translateX(-50px); }
+    #experiences #experience-text h2 {
+      width: 100%;
+      text-transform: uppercase;
+      margin-top: 0; }
+    #experiences #experience-text img {
+      width: 40%;
+      padding-right: 10px; }
+    #experiences #experience-text p {
+      width: 54%;
+      border-left: 3px solid _palette(general, base);
+      padding-left: 10px;
+      text-align: justify;
+      text-indent: 20px; }
+  @media screen and (max-width: 974px) {
+    #experiences #experience-text {
+      width: 60%; } }
+  @media screen and (max-width: 630px) {
+    #experiences #experience-text {
+      width: 70%; }
+      #experiences #experience-text p {
+        width: 90%; } }
+  @media screen and (max-width: 500px) {
+    #experiences #line .point {
+      margin: 0 20px;
+      margin-bottom: -32.5px; }
+    #experiences #experience-text img {
+      width: 60%; } }
+  @media screen and (max-width: 320px) {
+    #experiences #line .point {
+      margin: 0 10px;
+      margin-bottom: -32.5px; } }
+
+/*# sourceMappingURL=experience.css.map */
