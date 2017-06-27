@@ -1,6 +1,10 @@
+html {
+  overflow-x: hidden; }
+
 html, body {
   margin: 0;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  background-color: #505050; }
 
 h1, h2, h3 {
   font-family: "Heebo", sans-serif; }
@@ -30,6 +34,10 @@ p {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; }
+
+@media screen and (max-width: 430px) {
+  h1 {
+    font-size: 1.9em; } }
 
 /*animate */
 .animate {
@@ -261,12 +269,19 @@ p {
     padding: 20px; }
     #more .footer .email-icon {
       float: left; }
+      @media screen and (max-width: 430px) {
+        #more .footer .email-icon {
+          font-size: 0.7em; } }
       #more .footer .email-icon .fa {
         margin-right: 20px; }
     #more .footer .right-icon {
       float: right; }
+      @media screen and (max-width: 430px) {
+        #more .footer .right-icon {
+          font-size: 0.8em; } }
     #more .footer a .fa {
-      transition: color 0.5s ease 0s; }
+      transition: color 0.5s ease 0s;
+      color: whitesmoke; }
       #more .footer a .fa:hover {
         color: #e85141;
         cursor: pointer; }

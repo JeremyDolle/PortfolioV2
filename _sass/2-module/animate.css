@@ -1,0 +1,43 @@
+/*animate */
+.animate {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease 0s; }
+  .animate.anim {
+    opacity: 1;
+    transform: translateY(0); }
+
+.animate-delay {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease 0.6s; }
+  .animate-delay.anim {
+    opacity: 1;
+    transform: translateY(0); }
+
+/*animate Right */
+.animate-right {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.5s ease 0s; }
+  .animate-right.animRight {
+    opacity: 1;
+    transform: translateX(0); }
+
+/*animate Left */
+.animate-left {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 0.5s ease 0s; }
+  .animate-left.animLeft {
+    opacity: 1;
+    transform: translateX(0); }
+
+/*animate Zoom */
+.animate-zoom {
+  transform: scale(0);
+  transition: all 0.5s ease 0s; }
+  .animate-zoom.animZoom {
+    transform: scale(1); }
+
+/*# sourceMappingURL=animate.css.map */

@@ -1,65 +1,281 @@
-/*
-Error: File to import not found or unreadable: sidemenu.
-       Load path: C:/Users/jeremy/PhpstormProjects/portfolio/_sass
-        on line 1 of C:/Users/jeremy/PhpstormProjects/portfolio/_sass/2-module/_module-dir.sass
-        from line 3 of C:\Users\jeremy\PhpstormProjects\portfolio\_sass\main.sass
+html, body {
+  margin: 0;
+  font-family: "Raleway", sans-serif; }
 
-1: @import '0-plugin/_plugin-dir'
-2: @import '1-base/_base-dir'
-3: @import '2-module/_module-dir'
-4: @import '3-layout/_layout-dir'
+h1, h2, h3 {
+  font-family: "Heebo", sans-serif; }
 
-Backtrace:
-C:/Users/jeremy/PhpstormProjects/portfolio/_sass/2-module/_module-dir.sass:1
-C:\Users\jeremy\PhpstormProjects\portfolio\_sass\main.sass:3
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:18:in `load'
-C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: sidemenu.\A        Load path: C:/Users/jeremy/PhpstormProjects/portfolio/_sass\A         on line 1 of C:/Users/jeremy/PhpstormProjects/portfolio/_sass/2-module/_module-dir.sass\A         from line 3 of C:\Users\jeremy\PhpstormProjects\portfolio\_sass\main.sass\A \A 1: @import '0-plugin/_plugin-dir'\A 2: @import '1-base/_base-dir'\A 3: @import '2-module/_module-dir'\A 4: @import '3-layout/_layout-dir'"; }
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0; }
+  h1 span {
+    font-weight: 400; }
+
+a:hover {
+  text-decoration: none; }
+
+p {
+  text-align: justify;
+  text-indent: 20px; }
+
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.flex-center-center-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+@media screen and (max-width: 430px) {
+  h1 {
+    font-size: 1.9em; } }
+
+/*animate */
+.animate {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease 0s; }
+  .animate.anim {
+    opacity: 1;
+    transform: translateY(0); }
+
+.animate-delay {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease 0.6s; }
+  .animate-delay.anim {
+    opacity: 1;
+    transform: translateY(0); }
+
+/*animate Right */
+.animate-right {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.5s ease 0s; }
+  .animate-right.animRight {
+    opacity: 1;
+    transform: translateX(0); }
+
+/*animate Left */
+.animate-left {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 0.5s ease 0s; }
+  .animate-left.animLeft {
+    opacity: 1;
+    transform: translateX(0); }
+
+/*animate Zoom */
+.animate-zoom {
+  transform: scale(0);
+  transition: all 0.5s ease 0s; }
+  .animate-zoom.animZoom {
+    transform: scale(1); }
+
+#header {
+  background-color: #e85141;
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+  color: whitesmoke;
+  position: relative; }
+  #header .full-page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url("images/ny.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: opacity(10%); }
+  #header .title {
+    z-index: 9;
+    text-align: center;
+    position: relative; }
+    #header .title h1 {
+      font-size: 5.5em;
+      text-transform: uppercase;
+      font-weight: 300;
+      margin: 0;
+      border: 5px solid whitesmoke;
+      padding: 20px 30px 20px 30px;
+      margin-bottom: -35px; }
+      #header .title h1 span {
+        font-weight: 400; }
+    #header .title h2 {
+      position: absolute;
+      text-transform: uppercase;
+      font-size: 3em;
+      margin: 0;
+      display: inline;
+      padding: 0 10px;
+      bottom: -67px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: whitesmoke;
+      color: #e85141; }
+  @media screen and (max-width: 760px) {
+    #header .title h1 {
+      font-size: 4em; }
+    #header .title h2 {
+      font-size: 2.5em;
+      bottom: -62px; } }
+  @media screen and (max-width: 540px) {
+    #header .title h1 {
+      font-size: 2em;
+      border-width: 3px; }
+    #header .title h2 {
+      font-size: 1.5em;
+      bottom: -51px; } }
+
+#about {
+  padding: 150px;
+  position: relative;
+  background: #dadada url(images/photo.png) right center no-repeat;
+  background-size: contain;
+  z-index: 999;
+  box-shadow: 0px -15px 22px -13px rgba(0, 0, 0, 0.3); }
+  #about .about-content {
+    border-left: 5px solid whitesmoke;
+    padding-left: 30px; }
+    #about .about-content .about-title {
+      margin-bottom: 50px;
+      color: #e85141; }
+    #about .about-content .about-text {
+      width: 60%; }
+  @media screen and (max-width: 870px) {
+    #about {
+      padding-left: 70px; } }
+  @media screen and (max-width: 770px) {
+    #about {
+      padding: 70px; } }
+  @media screen and (max-width: 620px) {
+    #about {
+      padding: 30px; } }
+  @media screen and (max-width: 575px) {
+    #about .about-content .about-text {
+      width: 80%; } }
+  @media screen and (max-width: 505px) {
+    #about .about-content .about-text {
+      width: 90%; } }
+  @media screen and (max-width: 483px) {
+    #about {
+      background-size: cover;
+      padding: 10px; }
+      #about .about-content .about-title {
+        margin-bottom: 10px; }
+      #about .about-content .about-text {
+        width: 100%; } }
+
+#competences {
+  background-color: whitesmoke;
+  z-index: 999; }
+  #competences .competences-title {
+    color: #e85141;
+    width: 100%;
+    text-align: center; }
+
+#experiences {
+  background-color: #e85141;
+  z-index: 999;
+  box-shadow: 0px 15px 22px -13px rgba(0, 0, 0, 0.3); }
+  #experiences .experiences-title {
+    color: whitesmoke;
+    margin-bottom: 50px; }
+  #experiences #line {
+    border-bottom: 5px solid whitesmoke;
+    width: 100%;
+    margin-bottom: 50px;
+    color: #505050; }
+    #experiences #line .point {
+      cursor: pointer;
+      margin: 0 40px;
+      margin-bottom: -32.5px;
+      width: 60px;
+      height: 60px;
+      background-color: whitesmoke;
+      border-radius: 50%;
+      transition: all 0.3s ease-out 0s; }
+      #experiences #line .point.hover {
+        background-color: #505050;
+        color: #E45946; }
+  #experiences #experience-text {
+    padding: 40px;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    min-height: 350px;
+    width: 40%;
+    margin-bottom: 50px;
+    opacity: 0;
+    transform: translateX(-50px); }
+    #experiences #experience-text h2 {
+      width: 100%;
+      text-transform: uppercase;
+      margin-top: 0; }
+    #experiences #experience-text img {
+      width: 40%;
+      padding-right: 10px; }
+    #experiences #experience-text p {
+      width: 54%;
+      border-left: 3px solid #e85141;
+      padding-left: 10px;
+      text-align: justify;
+      text-indent: 20px; }
+  @media screen and (max-width: 974px) {
+    #experiences #experience-text {
+      width: 60%; } }
+  @media screen and (max-width: 630px) {
+    #experiences #experience-text {
+      width: 70%; }
+      #experiences #experience-text p {
+        width: 90%; } }
+  @media screen and (max-width: 500px) {
+    #experiences #line .point {
+      margin: 0 20px;
+      margin-bottom: -32.5px; }
+    #experiences #experience-text img {
+      width: 60%; } }
+  @media screen and (max-width: 320px) {
+    #experiences #line .point {
+      margin: 0 10px;
+      margin-bottom: -32.5px; } }
+
+#more {
+  background-color: #505050;
+  color: whitesmoke;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  width: 100%; }
+  #more h1 {
+    text-align: center; }
+  #more .footer {
+    background-color: #333333;
+    height: 50px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; }
+    #more .footer .email-icon {
+      float: left; }
+      #more .footer .email-icon .fa {
+        margin-right: 20px; }
+    #more .footer .right-icon {
+      float: right; }
+      @media screen and (max-width: 430px) {
+        #more .footer .right-icon {
+          font-size: 0.7em; } }
+    #more .footer a .fa {
+      transition: color 0.5s ease 0s; }
+      #more .footer a .fa:hover {
+        color: #e85141;
+        cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */

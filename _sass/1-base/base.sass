@@ -1,6 +1,10 @@
+html
+  overflow-x: hidden
+
 html, body
   margin: 0
   font-family: 'Raleway', sans-serif
+  background-color: #505050
 
 h1, h2, h3
   font-family: 'Heebo', sans-serif
@@ -15,6 +19,7 @@ h1
 a
   &:hover
     text-decoration: none
+
 p
   text-align: justify
   text-indent: 20px
@@ -29,3 +34,7 @@ p
   justify-content: center
   align-items: center
   flex-wrap: wrap
+
+h1
+  @media screen and (max-width: 430px)
+    font-size: 1.9em

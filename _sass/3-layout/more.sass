@@ -17,12 +17,17 @@
     padding: 20px
     .email-icon
       float: left
+      @media screen and (max-width: 430px)
+        font-size: 0.7em
       .fa
         margin-right: 20px
     .right-icon
       float: right
+      @media screen and (max-width: 430px)
+        font-size: 0.8em
     a .fa
       transition: color 0.5s ease 0s
+      color: whitesmoke
       &:hover
         color: _palette(general,base)
         cursor: pointer

@@ -26,10 +26,10 @@
 <script src="js/jd_animate.js"></script>
 <script type="application/javascript">
     $(document).ready(function () {
-        var footerHeight = $('#more').height();
+        var footerHeight = $('#more').height()+15;
         $('body').css('marginBottom',footerHeight);
         $( window ).resize(function() {
-            var footerHeight = $('#more').height();
+            var footerHeight = $('#more').height()+15;
             console.log(footerHeight);
             $('body').css('marginBottom',footerHeight);
         });
